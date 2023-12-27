@@ -14,7 +14,7 @@ spec:
         app: organization-api-nonsql
     spec:
       containers:
-      - image: 485229547579.dkr.ecr.ap-southeast-1.amazonaws.com/dotnetdynamodbwithsqs-api:latest-8443d88994c0d81723088407fc83bfce32144342
+      - image: 485229547579.dkr.ecr.ap-southeast-1.amazonaws.com/dotnetdynamodbwithsqs-api:latest-9b65311a2d4ae2395a2ed03bc0307e9badfdee1a
         name: organization-api-nonsql
         env:
           - name: Application__ConnectionString
